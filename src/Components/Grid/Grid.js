@@ -1,8 +1,9 @@
+import './Grid.css';
 import React from "react";
 
-const Grid = ({Elements}) =>
+const Grid = ({children}) =>
 {
-    <div className="Grid">{Elements}</div>
+	return (<div className="Grid">{children}</div>);
 }
 
 export default Grid;
