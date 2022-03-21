@@ -1,0 +1,49 @@
+header
+{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:link 
+{
+	color: #FFFFFF;
+}
+
+a:visited 
+{
+	color: #FFFFFF;
+}
+
+a:hover
+{
+	color: #BBBBBB;
+}
+
+.Logo
+{
+	margin-right: 20px;
+}
+
+.Logo span
+{
+	font-weight: bold;
+	font-size: 2em;
+	background: -webkit-linear-gradient(#A7C6FF, #FFFFFF);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+}
+
+.Menu_Item
+{
+	margin-right: 20px;
+}
