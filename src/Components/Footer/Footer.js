@@ -14,12 +14,12 @@ const Footer = () =>
 			Path: "/terms-and-conditions"
 		},
 		{
-			Label: "Contact Us",
-			Path: "/contact-us"
-		},
-		{
 			Label: "FAQs and Help",
 			Path: "/help"
+		},
+		{
+			Label: "Contact Us",
+			Path: "/contact-us"
 		},
 		{
 			Label: "Careers",
