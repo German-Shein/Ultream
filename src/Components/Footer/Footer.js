@@ -29,7 +29,7 @@ const Footer = () =>
 
 	return (
 		<footer>
-            <p className="Copyright">© {new Date ().getFullYear ()} Ultream, Inc.</p>
+            <p className="Copyright">© {new Date ().getFullYear ()} German Shein</p>
 			<nav className="Menu">
 				{
 					Menu.map (Menu_Item => <Link className="Menu_Item" to={Menu_Item.Path}>{Menu_Item.Label}</Link>)
