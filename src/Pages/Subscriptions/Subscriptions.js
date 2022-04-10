@@ -7,7 +7,7 @@ const Subscriptions = () =>
 	const Streaming_Services = 
 	[
 		{
-			Name: "Amazon Primve Video",
+			Name: "Amazon Prime Video",
 			Logo: "../../Images/Amazon_Prime_Video_Logo.png"
 		},
 		{
