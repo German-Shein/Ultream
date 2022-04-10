@@ -36,7 +36,7 @@ a:hover
 {
 	font-weight: bold;
 	font-size: 2em;
-	background: -webkit-linear-gradient(#A7C6FF, #FFFFFF);
+	background: -webkit-linear-gradient(var(--Brand_Color), #FFFFFF);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

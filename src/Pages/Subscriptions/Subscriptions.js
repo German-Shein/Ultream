@@ -1,5 +1,6 @@
 import Card from '../../Components/Card/Card';
 import Grid from '../../Components/Grid/Grid';
+import { Logos } from '../../Components/Logos';
 import './Subscriptions.css';
 
 const Subscriptions = () =>
@@ -8,43 +9,43 @@ const Subscriptions = () =>
 	[
 		{
 			Name: "Amazon Prime Video",
-			Logo: "../../Images/Amazon_Prime_Video_Logo.png"
+			Logo: Logos.Amazon_Prime_Video
 		},
 		{
 			Name: "Apple TV Plus",
-			Logo: "../../Images/Apple_TV_Plus_Logo.png"
+			Logo: Logos.Apple_TV_Plus
 		},
 		{
 			Name: "DirecTV Stream",
-			Logo: "../../Images/DirecTV_Stream_Logo.png"
+			Logo: Logos.DirecTV_Stream
 		},
 		{
 			Name: "Disney+",
-			Logo: "../../Images/Disney+_Logo.png"
+			Logo: Logos.Disney_Plus
 		},
 		{
 			Name: "FuboTV",
-			Logo: "../../Images/FuboTV_Logo.png"
+			Logo: Logos.FuboTV
 		},
 		{
 			Name: "HBO Max",
-			Logo: "../../Images/HBO_Max_Logo.png"
+			Logo: Logos.HBO_Max
 		},
 		{
 			Name: "Hulu",
-			Logo: "../../Images/Hulu_Logo.png"
+			Logo: Logos.Hulu
 		},
 		{
 			Name: "Netflix",
-			Logo: "../../Images/Netflix_Logo.png"
+			Logo: Logos.Netflix
 		},
 		{
 			Name: "Sling TV",
-			Logo: "../../Images/Sling_TV_Logo.png"
+			Logo: Logos.Sling_TV
 		},
 		{
 			Name: "YouTube TV",
-			Logo: "../../Images/YouTube_TV_Logo.png"
+			Logo: Logos.YouTube_TV
 		}
 	];
 

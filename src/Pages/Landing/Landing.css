@@ -1,16 +1,16 @@
 .Starting_Screen
 {
-    display: flex;
+	display: flex;
 	align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
 }
 
 .Brand
 {
-    background: -webkit-linear-gradient(#A7C6FF, #FFFFFF);
+	background: -webkit-linear-gradient(var(--Brand_Color), #FFFFFF);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -19,10 +19,22 @@
 
 .Welcome_Button
 {
-    background-color: #A7C6FF;
-    color: #000000;
-    font-weight: bold;
-    border: 0;
-    padding: 15px;
-    font-size: 1.5em;
+	background-color: var(--Brand_Color);
+	color: #000000;
+	font-weight: bold;
+	border: 0;
+	padding: 15px;
+	font-size: 1.25em;
+}
+
+.Welcome_Button:hover
+{
+    background-color: #91b7ff;
+	cursor: pointer;
+}
+
+.Welcome_Button:active
+{
+    background-color: #649afd;
+	cursor: pointer;
 }
